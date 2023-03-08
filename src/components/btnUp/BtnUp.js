@@ -4,11 +4,11 @@ import "./BtnUp.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUpLong } from '@fortawesome/free-solid-svg-icons'
 window.onscroll=()=>{
-    if(window.pageYOffset>=500 ){
-    document.querySelector(".btn-up").style.display="block"
-    }else{
-        document.querySelector(".btn-up").style.display="none"
-    }
+    // if(window.pageYOffset>=500 ){
+    // document.querySelector(".btn-up").style.display="block"
+    // }else{
+    //     document.querySelector(".btn-up").style.display="none"
+    // }
     document.querySelector(".btn-up").onclick=()=>{
         window.scrollTo({
             top:0,
