@@ -22,7 +22,6 @@ function App() {
           <Route path='/home' element={App}/>
         </Routes>
      <Header/>
-     <BtnUp/>
      <Statics/>
      <Show/>
      <Mande/>
