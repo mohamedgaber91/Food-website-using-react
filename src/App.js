@@ -7,7 +7,7 @@ import Statics from './components/statics/static';
 import Show from './components/show/Show';
 import Mande from './components/mand/Mand';
 import Watch from './components/watch/Watch';
-import BtnUp from './components/btnUp/BtnUp';
+
 import Foods from './components/foods/Foods';
 import Testimonial from "./components/testimonials/Testimonial"
 import Question from './components/questions/Question';
