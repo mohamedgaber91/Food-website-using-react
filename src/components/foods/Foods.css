@@ -33,6 +33,11 @@ text-align: center;
     height: 250px;
     border-radius: 15px;
 }
+@media (max-width:500px) {
+    .our-foods .foods-content  img{
+        width: 90%;
+    }
+}
 .our-foods .foods-content h5{
     margin-top: 15px;
 }

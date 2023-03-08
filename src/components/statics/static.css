@@ -8,6 +8,11 @@
     margin-top: 150px;
     color: white;
 }
+@media (max-width:500px) {
+    .our-statics{
+        margin-top: 250px;
+    }
+}
 .statics-content{
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(273px,1fr));
