@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Food-website-using-react/static/css/main.e849a14a.css",
-    "main.js": "/Food-website-using-react/static/js/main.9d08972d.js",
+    "main.css": "/Food-website-using-react/static/css/main.e572697f.css",
+    "main.js": "/Food-website-using-react/static/js/main.20698b04.js",
     "static/js/787.28cb0dcd.chunk.js": "/Food-website-using-react/static/js/787.28cb0dcd.chunk.js",
     "static/media/mande.png": "/Food-website-using-react/static/media/mande.b810024430d376b6bd6d.png",
     "static/media/back-header.jpg": "/Food-website-using-react/static/media/back-header.12c392d279429f82935c.jpg",
@@ -18,12 +18,12 @@
     "static/media/food-9.jpg": "/Food-website-using-react/static/media/food-9.b906470b79148f4a539a.jpg",
     "static/media/food-8.jpg": "/Food-website-using-react/static/media/food-8.b7887a08d0cbb0f3720f.jpg",
     "index.html": "/Food-website-using-react/index.html",
-    "main.e849a14a.css.map": "/Food-website-using-react/static/css/main.e849a14a.css.map",
-    "main.9d08972d.js.map": "/Food-website-using-react/static/js/main.9d08972d.js.map",
+    "main.e572697f.css.map": "/Food-website-using-react/static/css/main.e572697f.css.map",
+    "main.20698b04.js.map": "/Food-website-using-react/static/js/main.20698b04.js.map",
     "787.28cb0dcd.chunk.js.map": "/Food-website-using-react/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e849a14a.css",
-    "static/js/main.9d08972d.js"
+    "static/css/main.e572697f.css",
+    "static/js/main.20698b04.js"
   ]
 }
