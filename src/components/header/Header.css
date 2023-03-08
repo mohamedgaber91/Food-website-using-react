@@ -7,9 +7,14 @@
     margin-top: 200px;
     background-image: url("../../imges/back-header.jpg");
     background-size: cover;
-    height: 579px;
+    height: 870px;
     background-position: center;
     
+}
+@media (max-width:500px) {
+    .our-header{
+        height: 579px;
+    }
 }
 .header-content {
     padding: 50px;
@@ -21,6 +26,11 @@
     font-size: 40px;
     line-height: 60px;
     font-weight: bold;
+}
+@media (max-width:500px) {
+    .header-content h3{
+        font-size: 30px;
+    }
 }
 .header-content p {
     font-size: 20px;

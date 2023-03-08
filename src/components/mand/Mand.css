@@ -21,6 +21,11 @@
     line-height: 50px;
     margin-bottom: 30px;
 }
+@media (max-width:500px) {
+    .our-mande .mande-content h3{
+         font-size: 25px;
+    }
+}
 .our-mande .mande-content p{
     line-height: 35px;
     text-transform: capitalize;

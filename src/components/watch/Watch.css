@@ -19,6 +19,11 @@
     color: #43121d;
     margin-bottom: 37px;
 }
+@media (max-width:500px) {
+    .our-watch .watch-content h2{
+        font-size: 30px;
+    }
+}
 .our-watch .watch-content p{
     text-transform: capitalize;
     color: #00000096;
