@@ -32,9 +32,7 @@ gap: 25px;
     width: 100%;
     margin-bottom: 30px;
 }
-.our-show .show-content img:hover{
-    transform: skew(20deg)
-}
+
 .show-btn{
     background-color: var(--main-color);
     border: none;
