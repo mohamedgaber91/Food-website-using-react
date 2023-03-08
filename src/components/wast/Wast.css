@@ -1,0 +1,54 @@
+:root{
+    --main-color:#a82c48;
+    --main-transition:0.5s;
+}
+.our-wast{
+margin-top: 150px;
+background-image: url("../../imges/wast-back.jpg");
+background-size: cover;
+height: 500px;
+position: relative;
+
+}
+.wast-content{
+    text-align: center;
+    color: white;
+    z-index: 10;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, 50%);
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px
+
+}
+.wast-content h3{
+    margin-bottom: 44px;
+}
+.wast-content button{
+    background-color:white;
+    border: none;
+    font-size: 25px;
+    color: black;
+    width: 200px;
+    height: 70px;
+    border: 1px solid black;
+    transition: var(--main-transition);
+
+}
+.wast-content button:hover{
+    background-color: var(--main-color);
+    border: none;
+    color: white;
+}
+
+.our-wast::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #00000082;
+}

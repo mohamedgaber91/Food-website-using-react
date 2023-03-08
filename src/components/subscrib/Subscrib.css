@@ -1,0 +1,60 @@
+:root{
+    --main-color:#a82c48;
+    --main-transition:0.5s;
+}
+.our-subscrib{
+margin-top: 150px;
+height: 400px;
+position: relative;
+
+}
+.subscrib-content{
+    text-align: center;
+    padding-bottom: 20px
+
+}
+.subscrib-content h3{
+    margin-bottom: 44px;
+    font-size: 30px;
+    font-weight: bold;
+    color:#43121d ;
+    text-transform: capitalize;
+}
+.subscrib-content p{
+    color: rgb(46, 40, 40);
+    font-size: 25px;
+}
+.subscrib-content .box{
+    margin-top: 50px;
+}
+.subscrib-content button{
+    background-color:var(--main-color);
+    border: none;
+    font-size: 25px;
+    color: white;
+    width: 200px;
+    height: 65px;
+    transition: var(--main-transition);
+
+}
+input.email {
+    margin-right: 40px;
+    height: 65px;
+    
+    padding: 20px;
+    margin: 5px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    border: 1px solid rgb(77, 70, 70);
+}
+.subscrib-content button:hover{
+    background-color: white;
+    border: none;
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+@media (max-width:500px) {
+    input.email{
+        width: 100%;
+    }
+}

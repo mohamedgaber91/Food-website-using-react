@@ -1,0 +1,52 @@
+:root{
+    --main-color:#a82c48;
+    --main-transition:0.5s;
+}
+.our-mande{
+    margin: 20px;
+    margin-top: 150px;
+}
+.our-mande .mande-content{
+
+}
+.our-mande .mande-content .text-left{
+
+}
+.our-mande .mande-content h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #43121d;
+    text-transform: capitalize;
+    word-spacing: 1.5px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+.our-mande .mande-content p{
+    line-height: 35px;
+    text-transform: capitalize;
+    color: #000000ad;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.our-mande .mande-content img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.mande-btn{
+    background-color: var(--main-color);
+    border: none;
+    color: white;
+    transition: var(--main-transition);
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.mande-btn:hover{
+    background-color: white;
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+}
+.icon{
+    margin-right: 5px;
+}

@@ -1,0 +1,47 @@
+:root{
+    --main-color:#a82c48;
+    --main-transition:0.5s;
+    --main-h3:#43121d
+}
+.our-foods{
+margin-top: 200px;
+}
+.our-foods .foods-heading{
+text-align: center;
+
+}
+.our-foods .foods-heading h3{
+    margin-bottom: 62px;
+    color: var(--main-color);
+    font-size: 40px;
+    color: var(--main-h3);
+}
+.our-foods .foods-heading p{
+    line-height: 40px;
+    font-size: 25px;
+    color: #00000080;
+}
+.our-foods .foods-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(360px,1fr));
+    gap: 100px;
+    margin-top: 124px;
+    text-align: center;
+}
+.our-foods .foods-content  img{
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+}
+.our-foods .foods-content h5{
+    margin-top: 15px;
+}
+.our-foods .foods-content h3{
+color: var(--main-color);
+margin-bottom: 30px;
+}
+.our-foods .foods-content h3 .span{
+color: rgb(144, 147, 149);
+text-decoration: line-through;
+margin: 10px;
+}

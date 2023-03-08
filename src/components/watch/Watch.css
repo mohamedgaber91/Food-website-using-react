@@ -1,0 +1,32 @@
+:root{
+    --main-color:#a82c48;
+    --main-transition:0.5s;
+}
+.our-watch{
+    background-image: url(http://localhost:3000/static/media/watch.8dac9ee….jpg);
+    background-size: cover;
+   
+    text-align: center;
+    font-size: 25px;
+    padding-top: 57px;
+}
+.our-watch .watch-content{
+
+}
+.our-watch .watch-content h2{
+    font-size: 40px;
+    line-height: 60px;
+    color: #43121d;
+    margin-bottom: 37px;
+}
+.our-watch .watch-content p{
+    text-transform: capitalize;
+    color: #00000096;
+    margin-bottom: 37px;
+}
+.our-watch .watch-content button{
+border: 1px solid var(--main-color);
+height: 50px;
+width: 250px;
+text-transform: capitalize;
+}
